@@ -23,6 +23,62 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+    body {
+        height: 700px;
+    }
+
+    .item{
+      margin-left:-10px;
+      margin-right:-10px;
+      height:700px;
+    }
+
+    @media (min-width: 1200px) {
+      .item{
+        margin-top: 40px;
+      }
+      .carousel-caption{
+        bottom: 70px;
+      }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .item{
+        margin-top: 90px;
+      }
+      .carousel-caption{
+        bottom: 120px;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px){
+      .item{
+        margin-top: 90px;
+      }
+      .carousel-caption{
+        bottom: 120px;
+      }
+    }
+
+    @media (min-width: 488px) and (max-width: 767px) {
+      .item{
+        margin-top: 40px;
+      }
+      .carousel-caption{
+        bottom: 70px;
+      }
+    }
+
+    @media (max-width: 487px){
+      .item{
+        margin-top: 90px;
+      }
+      .carousel-caption{
+        bottom: 120px;
+      }
+    }
+</style>
 
 </head>
 
@@ -101,7 +157,7 @@
         <div class="carousel-inner">
             <div id="#map1" class="item active">
                 <!-- Set the first background image using inline CSS below. -->
-                <iframe src="map/earthquakes.html" height=700px width=100%></iframe>
+                <iframe src="map/map1.html" height=700px width=100%></iframe>
                 <div class="carousel-caption">
                     <h2>Caption 1</h2>
                 </div>
